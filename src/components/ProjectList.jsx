@@ -1,5 +1,11 @@
-import React from "react";
+import React from 'react';
 
-export default function ProjectList ({ projects }) {
+const ProjectList = ({ projects }) => (
+  <div>
+    {projects.map((project, index) => (
+      <img key={index} src={project.img} alt={project.category} />
+    ))}
+  </div>
+);
 
-}
+export default ProjectList;
