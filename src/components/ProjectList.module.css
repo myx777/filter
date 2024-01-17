@@ -1,0 +1,10 @@
+.img_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projectImage {
+    margin: 20px;
+    width: 300px;
+}
